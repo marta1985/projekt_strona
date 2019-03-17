@@ -1,0 +1,62 @@
+*, *:before, *:after {
+	box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Roboto, sans-serif;
+    font-size: 1rem; 
+}
+
+.container {
+    max-width: 1000px;
+    margin: 20px auto; 
+	border: 1px solid #e1e1e1;
+	border-radius: 5px;
+	box-shadow: 0 0 35px rgba(0, 0, 0, 0.1);
+
+}
+
+header {
+    display: flex;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+}
+
+aside, article {
+    padding: 5px;
+}
+
+.widget img {
+    float: left;
+}
+
+.widget h1 {
+    font-size: 2.4rem;
+    text-align: center;
+}
+
+.widget a, li {
+    font-size: 1.5rem;
+    text-align: left;
+    text-decoration: none;
+}
+
+.widget a:hover {
+	color:red;
+}
+
+footer {
+    background-color:#f8f8f8;
+    padding: 10px;
+    text-align: center;
+    border-top: 1px solid #e1e1e1;
+
+
+}
+
+
+
